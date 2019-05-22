@@ -1,6 +1,6 @@
 # Weekend task to create pokemon cards
 
-Frontend to display pokemon cards using html css and bootsrap.
+Frontend to display pokemon cards using html, css and bootsrap.
 
 ![Screenshot](https://github.com/kvsrinivas91/pokemoncards/blob/master/static/image.png)
 
