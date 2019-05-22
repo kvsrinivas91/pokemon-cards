@@ -1,0 +1,161 @@
+.col1 {
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+    /* text-align: center; */
+    background-color: 	#55D8E2;
+    border-radius: 5px;
+    /* padding-left: 200px; */
+    /*margin-left:50px;*/
+    margin-top: 90x;
+    width: 50px; 
+    /* height: 40px; */
+     /* flex: 33.33%;  */
+     margin-bottom: 10px;
+  
+  }
+
+.col2{box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  /* text-align: center; */
+  background-color: 	#00DD7E;
+  border-radius: 8px;
+  /* margin-left:50px; */
+  /* margin-top: 60x; */
+  /* width: 250px; */
+  /* height: 40px; */
+
+}
+
+.col3{
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  /* text-align: center; */
+  background-color: 	#FE7C1C;
+  border-radius: 8px;
+  margin-left:50px;
+  margin-top: 60x;
+  /* width: 250px; */
+  /* height: 40px; */
+  /* flex: 33.33%; */
+}
+.Squirtleh{
+  transform: rotate(15deg);
+  
+}
+
+.Bulbasaurh{
+  transform: rotate(15deg);
+}
+
+.Charmanderh{
+  transform: rotate(15deg);
+
+}
+
+.Bulbasaurt{
+  float: left;
+  background: 	#55D8E2;
+  color: black;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: monospace;
+  background-color: #72DDE3;
+}
+
+.Charmandert{
+  float: left;
+  background: 	#00DD7E;
+  color: black;
+  font-size: 16px;
+  padding: 2px;
+  border-radius: 5px;
+  font-family: monospace;
+  background-color:	#01E493;
+}
+
+.Pikachut{
+  float: left;
+  background: 	#FE7C1C;
+  color: black;
+  font-size: 16px;
+  padding: 2px;
+  border-radius: 5px;
+  font-family: monospace;
+  background-color: #FE9647;
+}
+
+.right_arrow{
+    float: right;
+  }
+
+.Data1{
+    font-size: 12px;
+    transform: rotate(15deg);
+
+  }
+
+.Data2{
+  font-size: 12px;
+  transform: rotate(15deg);
+
+}
+
+.Data3{
+  font-size: 12px;
+  transform: rotate(15deg);
+
+}
+
+.Text1{
+  background-color: #72DDE5 ;
+  text-align: justify;
+  transform: rotate(-15deg);
+  margin: 20px;
+  margin-top: 40px;
+  border-radius: 20px;
+
+}
+
+.Text2{
+  background-color: 	#01E493;
+  text-align: justify;
+  transform: rotate(-15deg);
+  margin: 20px;
+  margin-top: 40px;
+  border-radius: 20px;
+}
+
+.Text3{
+  background-color: #FE9547;
+  text-align: justify;
+  transform: rotate(-15deg);
+  margin: 20px;
+  margin-top: 40px;
+  border-radius: 20px;
+}
+
+.Image1{
+  background-color: #6CFFEA ;
+  border-radius: 100px;
+  text-align: center;
+  margin: 20px;
+  margin-left: -2px;
+
+
+
+}
+
+.Image2{
+  background-color: #3BFEAF ;
+  border-radius: 100px;
+  text-align: center;
+  margin: 20px; 
+   margin-left: -2px;
+}
+ 
+.Image3{
+  background-color: #FDB649 ;
+  border-radius: 100px;
+  text-align: center;
+  margin: 20px;
+  margin-left: -2px;
+
+}
