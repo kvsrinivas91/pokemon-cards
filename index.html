@@ -14,9 +14,9 @@
   $(function(){$.getJSON("https://dev-util.edyst.com/challenge/pokemons/random",function(data,status){
       //alert(data[0]["cardColors"].bg);
 
-      $("#name0").text(data[0].name);//
-      $("#name1").text(data[1].name);//
-      $("#name2").text(data[2].name);//
+      $(".name0").text(data[0].name);//
+      $(".name1").text(data[1].name);//
+      $(".name2").text(data[2].name);//
 
       $("#img0").attr("src",data[0].sprite);//
       $("#img1").attr("src",data[1].sprite);
@@ -34,9 +34,9 @@
       $("#img1").css("background-color",data[1]["cardColors"].imgbg);
       $("#img2").css("background-color",data[2]["cardColors"].imgbg);
 
-      $("#txtbg0").css("background-color",data[0]["cardColors"].textbg);//
-      $("#txtbg1").css("background-color",data[1]["cardColors"].textbg);
-      $("#txtbg2").css("background-color",data[2]["cardColors"].textbg);
+      $(".txtbg0").css("background-color",data[0]["cardColors"].textbg);//
+      $(".txtbg1").css("background-color",data[1]["cardColors"].textbg);
+      $(".txtbg2").css("background-color",data[2]["cardColors"].textbg);
 
     });
 
@@ -47,30 +47,30 @@
   <div class="main-container row">
     
       <div class = "m-3 mx-auto col1 col-sm-3" id="c0">
-        <div class="Bulbasaurt"><font color ="white">Bulbasaur</font> </div> 
+        <div class="Bulbasaurt txtbg0" ><font color ="white"> <div class="name1"> Bulbasaur </div></font> </div> 
         <div class="right_arrow"><img height="20px" src ="https://image.flaticon.com/icons/svg/66/66831.svg"></div>
-        <div class=Text1 id="txtbg0"> 
-            <div class="Squirtleh" id="name0"> <font color ="white"><h5>Squirtle</h5></font>    </div>
+        <div class="Text1 txtbg0"> 
+            <div class="Squirtleh name0" > <font color ="white"><h5>Squirtle</h5></font>    </div>
             <div class="Data1"  ><font color ="white"><p id="desc0"> Squirtle is a small Pokemon that resembles a light blue turtle. While it typically walks on its two short legs, it has been shown to run on all fours in Super Smash Bros. Brawl. It has large eyes and a slightly hooked upper lip. </p></font></div>
         </div>
         <div id="img11"><img class="Image1 " id="img0"  height="200px" src="https://cdn.bulbagarden.net/upload/thumb/7/79/Squirtle_SSBU.png/250px-Squirtle_SSBU.png" ></div>
       </div>
     
       <div class = "m-3  mx-auto col2 col-sm-3" id="c1">
-      <div class="Charmandert"><font color ="white">Charmander</font> </div> 
+      <div class="Charmandert txtbg1" ><font color ="white"> <div class="name2">Charmander</div></font> </div> 
       <div class="right_arrow"><img height="20px" src ="https://image.flaticon.com/icons/svg/66/66831.svg"></div>
-      <div class=Text2 id="txtbg1"> 
-          <div class="Bulbasaurh " id="name1"> <font color ="white"><h5>Bulbasaur</h5></font>    </div>
+      <div class="Text2 txtbg1"> 
+          <div class="Bulbasaurh name1" > <font color ="white"><h5>Bulbasaur</h5></font>    </div>
           <div class="Data2" ><font color ="white" > <p id="desc1">Bulbasaur is a small quardruped Pokemon that has blue-green skin with dark green patches. It has red eyes with great white pupils and white sclara's.It also has three pointed toes .</p></font></div>
       </div>
       <div id="img11"><img class="Image2 " id="img1"  height="200px" src="https://static.pokemonpets.com/images/monsters-images-300-300/1-Bulbasaur.png" ></div>
      </div>
     
       <div class = "m-3 mx-auto col3 col-sm-3" id="c2">
-          <div class="Pikachut"><font color ="white">Pikachu</font> </div> 
+          <div class="Pikachut txtbg2" ><font color ="white"><div class="name0">Pikachu</div></font> </div> 
           <div class="right_arrow"><img height="20px" src ="https://image.flaticon.com/icons/svg/66/66831.svg"></div>
-          <div class=Text3 id="txtbg2"> 
-              <div class="Charmanderh" id="name2"> <font color ="white"><h5>Charmander</h5></font>    </div>
+          <div class="Text3 txtbg2"> 
+              <div class="Charmanderh name2" > <font color ="white"><h5>Charmander</h5></font>    </div>
               <div class="Data3" ><font color ="white"><p id="desc2">Charmander are small, bipedal lizard-like pokemon native to Kanto. They have blue eyes, red-orange skin, three clawed toes, yellow bellies, and yellow soles under their feet.</p></font></div>
           </div>
           <div id="img11"><img  class="Image3" id="img2"  height="200px" src="https://cdn.bulbagarden.net/upload/thumb/7/73/004Charmander.png/250px-004Charmander.png" ></div>
