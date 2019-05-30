@@ -119,10 +119,12 @@
 
 .Image1{
   background-color: #6CFFEA ;
-  border-radius: 100px;
-  text-align: center;
+  border-radius:50%;
+  /* text-align: center;
   margin: 20px;
-  margin-left: -2px;
+  margin-left: -2px; */
+  align-self: center;
+  margin: auto;
 
 
 
@@ -130,19 +132,23 @@
 
 .Image2{
   background-color: #3BFEAF ;
-  border-radius: 100px;
+  border-radius: 50%;
   text-align: center;
   margin: 20px; 
-   margin-left: -2px;
+  margin-left: -2px;
 }
  
 .Image3{
   background-color: #FDB649 ;
-  border-radius: 100px;
+  border-radius: 50%;
   text-align: center;
   margin: 20px;
   margin-left: -2px;
 
+}
+
+#img11{
+  text-align: center;
 }
 
 /* #c0{
